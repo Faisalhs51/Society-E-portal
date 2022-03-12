@@ -1,0 +1,205 @@
+.flyout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.home-feature-box .fa {
+  font-size: 6rem;
+}
+
+.home-feature-box span {
+  display: block;
+  color: #111;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.example-components-list li > a {
+  color: #495057;
+}
+
+.example-components-list li:last-child > a {
+  border-bottom: 0;
+}
+
+.example-components-list li > a .fa {
+  color: rgba(0, 0, 0, 0.35);
+  float: right;
+}
+
+.ntcbrd {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ntctbldiv {
+  border: 2px solid grey;
+  padding: 10px;
+}
+
+/* Footer  */
+.ftrweb {
+  border: 2px solid grey;
+}
+
+.memform {
+  font-size: 50px;
+  padding: 10px;
+  margin: 75px;
+  /* border: 2px solid grey; */
+  width: 65vw;
+  transform: translate(25vw);
+}
+
+#memlogtxt {
+  color: #2bbbad;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#loglink {
+  color: #05564e;
+  font-style: italic;
+}
+
+#faccard {
+  display: flex;
+  justify-content: center;
+}
+
+#eventtitle {
+  text-align: center;
+}
+
+#eventdesc {
+  margin: 2px 0 0 0;
+  padding: 2px 0 0 0;
+  text-align: center;
+}
+
+.teambox {
+  display: flex;
+  justify-content: center;
+}
+
+/* .teamcard11 {
+  display: flex;
+  justify-content: center;
+} */
+
+.social11 {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#socialmediaimg1 {
+  margin: 3px 3px 3px 15px;
+}
+
+.socialcomponentshift1 {
+  margin: 3px 0 0 50px;
+}
+
+#awardimg11 {
+  width: 300px;
+  align-self: center;
+  /* box-sizing: border-box; */
+}
+
+#awardimgcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+#logoutbtn {
+  display: flex;
+  justify-content: right;
+}
+.memComplaint {
+  /* border: 2px solid red; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* align-self: center; */
+  transform: translate(18vw);
+}
+
+.memcomp2 {
+  /* border: 2px solid blue;
+  display: flex;
+  justify-content: center; */
+  align-items: center;
+}
+
+.vocational {
+  padding: 30px;
+}
+
+.containerpayment {
+  /* border: 2px solid red; */
+  max-width: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(30vw);
+}
+
+.addresdbtn {
+  display: flex;
+  justify-content: right;
+}
+
+.adresbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.residentdetailtable {
+  border: 2px solid lightsteelblue;
+  margin: 10px;
+}
+
+.addresidentform {
+  /* border: 2px solid red; */
+  transform: translate(17vw);
+}
+
+.complaintCardBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrightfoot {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #1976d2;
+}
+
+@media only screen and (max-width: 550px) {
+  .memform {
+    /* border: 5px solid pink; */
+    transform: translate(0px);
+  }
+  .memComplaint {
+    /* border: 5px solid pink; */
+    transform: translate(0px);
+    width: 85vw;
+  }
+}
+
+.residentdetailtable2 {
+  /* border: 2px solid pink; */
+  width: 95vw;
+  overflow: scroll;
+}

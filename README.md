@@ -1,7 +1,8 @@
-![image](https://github.com/Faisalhs51/Society-E-portal/assets/89152237/d5ab8b45-634f-4d79-953e-a73aa7ffa1f8)# Society-E-portal
+# Society-E-portal
 
 ## This is a complete solution for Society Management
 
+### Some Screenshots of Web App
 <kbd>
   
 ![image](https://github.com/Faisalhs51/Society-E-portal/assets/89152237/af52abc6-85aa-4696-ab28-b3a95e3a65d1)
